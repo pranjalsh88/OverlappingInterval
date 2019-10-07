@@ -80,7 +80,7 @@ public class IntervalsTest {
 
         int[] a1 = {1,20};
         int[] a2 = {3,7};
-        int[] a3 = {2,6};
+        int[] a3 = {8,10};
         int[] a4 = {11,16};
         int[] a5 = {29,46};
         int[] a6 = {32,39};
@@ -98,7 +98,7 @@ public class IntervalsTest {
         List<String> expected = new ArrayList<>();
 
         expected.add("[{1,20} conflicts with {3,7}]");
-        expected.add("[{1,20} conflicts with {2,6}]");
+        expected.add("[{1,20} conflicts with {8,10}]");
         expected.add("[{1,20} conflicts with {11,16}]");
         expected.add("[{29,46} conflicts with {32,39}]");
         expected.add("[{29,46} conflicts with {40,43}]");
